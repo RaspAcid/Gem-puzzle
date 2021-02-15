@@ -1,0 +1,65 @@
+body {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+#modal-wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba($color: #000000, $alpha: 0.5);
+    transition: all 0.25s ease-in-out;
+}
+
+.content {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 15% auto;
+    position: relative;
+    background-image: url('../assets/modal.jpg');
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.congrats {
+    display: inline-block;
+    margin: inherit;
+    padding: 0 90px;
+}
+
+.play-again {
+    background-color: wheat;
+    outline: none;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: url('../assets/info-frame.jpg');
+    background-size: cover;
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+#rest-btn {
+    position: relative;
+    margin: 0 auto;
+    left: 47%;
+    top: 25px;
+    border-radius: 25px;
+    background-color: #556052;
+    width: 125px;
+    height: 45px;
+    outline: none;
+}
